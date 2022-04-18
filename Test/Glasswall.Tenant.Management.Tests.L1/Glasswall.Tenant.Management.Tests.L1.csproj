@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Glasswall.Common.Serialisation.JSON" Version="1.2.4" />
+    <PackageReference Include="Glasswall.Platform.Web.HttpClient" Version="1.0.6" />
+    <PackageReference Include="Glasswall.Platform.Web.Tokens" Version="1.0.7" />
+    <PackageReference Include="Glasswall.Providers.MemoryCache" Version="1.1.4" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0-preview-20180816-01" />
+    <PackageReference Include="Moq" Version="4.10.0" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Source\Glasswall.Tenant.Management\Glasswall.Tenant.Management.csproj" />
+  </ItemGroup>
+
+</Project>
