@@ -1,9 +1,8 @@
 ﻿using System;
-using Glasswall.Kernel.Logging;
 
-namespace Glasswall.Tenant.Management.Tests.L0.MockData
+namespace Platform.Tenant.Management.Tests.L0.MockData
 {
-    internal class MockLogger<T> : IGWLogger<T>
+	internal class MockLogger<T> : IGWLogger<T>
     {
         private readonly Action _onLog;
 

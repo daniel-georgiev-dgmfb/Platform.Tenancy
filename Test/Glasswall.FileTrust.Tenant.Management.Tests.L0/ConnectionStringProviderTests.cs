@@ -1,20 +1,13 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Specialized;
-using System.Threading;
-using Glasswall.Kernel.Caching;
-using Glasswall.Kernel.Security.SecretManagement;
-using Glasswall.Kernel.Tenancy;
-using Glasswall.Kernel.Web;
-using Glasswall.Kernel.Web.Authorisation;
-using Glasswall.Tenant.Management.Models;
-using Glasswall.Tenant.Management.Tests.L0.MockData;
-using Moq;
+﻿using Moq;
 using NUnit.Framework;
+using System;
+using System.Collections.Specialized;
+using System.Linq;
+using System.Threading;
 
-namespace Glasswall.Tenant.Management.Tests.L0
+namespace Platform.Tenant.Management.Tests.L0
 {
-    [TestFixture]
+	[TestFixture]
     internal class ConnectionStringProviderTests
     {
         [Test]

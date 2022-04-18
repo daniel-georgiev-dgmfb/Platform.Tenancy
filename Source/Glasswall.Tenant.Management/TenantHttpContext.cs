@@ -1,11 +1,8 @@
 ﻿using System;
-using Glasswall.Kernel.Tenancy;
-using Glasswall.Kernel.Web;
-using Glasswall.Kernel.Web.Authorisation;
 
-namespace Glasswall.Tenant.Management
+namespace Platform.Tenant.Management
 {
-    public class TenantHttpContext
+	public class TenantHttpContext
     {
         public TenantHttpContext(TenantDescriptor tenantDescriptor, Endpoint tenantEndpoint, IBearerTokenContext clientCredentials)
         {

@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using Glasswall.Kernel.Caching;
 
-namespace Glasswall.Tenant.Management.Tests.L0.MockData
+namespace Platform.Tenant.Management.Tests.L0.MockData
 {
-    internal class MockCacheProvider : ICacheProvider
+	internal class MockCacheProvider : ICacheProvider
     {
         private Guid _key;
         private object _value;

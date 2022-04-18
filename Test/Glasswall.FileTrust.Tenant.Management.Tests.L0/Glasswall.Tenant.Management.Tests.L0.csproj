@@ -11,6 +11,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>Platform.Tenant.Management.Tests.L0</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

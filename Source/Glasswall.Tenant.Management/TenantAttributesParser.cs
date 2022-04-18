@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Glasswall.Kernel.Serialisation;
-using Glasswall.Tenant.Management.Models;
 
-namespace Glasswall.Tenant.Management
+namespace Platform.Tenant.Management
 {
-    internal class TenantAttributesParser : ITenantAttributesParser
+	internal class TenantAttributesParser : ITenantAttributesParser
     {
         private readonly IJsonSerialiser _serialiser;
         public TenantAttributesParser(IJsonSerialiser serialiser)

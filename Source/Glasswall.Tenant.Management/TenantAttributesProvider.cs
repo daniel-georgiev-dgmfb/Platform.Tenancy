@@ -3,16 +3,11 @@ using System.Collections.Specialized;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
-using Glasswall.Kernel.Caching;
-using Glasswall.Kernel.Data.Connection;
-using Glasswall.Kernel.Logging;
-using Glasswall.Kernel.Security.SecretManagement;
-using Glasswall.Tenant.Management.Models;
 
 [assembly: InternalsVisibleTo("Glasswall.Tenant.Management.Tests.L0")]
-namespace Glasswall.Tenant.Management
+namespace Platform.Tenant.Management
 {
-    internal class TenantAttributesProvider : IConnectionStringProvider<NameValueCollection>
+	internal class TenantAttributesProvider : IConnectionStringProvider<NameValueCollection>
     {
         private readonly ITenantAttributesRetriever _tenantConnectionStringRetriever;
         private readonly IGWLogger<TenantAttributesProvider> _logger;

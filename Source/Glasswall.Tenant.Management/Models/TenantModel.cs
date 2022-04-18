@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Glasswall.Tenant.Management.Models
+namespace Platform.Tenant.Management.Models
 {
     public class TenantModel
     {

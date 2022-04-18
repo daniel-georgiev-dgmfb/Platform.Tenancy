@@ -1,9 +1,6 @@
-﻿using Glasswall.Kernel.Web;
-using Glasswall.Tenant.Management.Models;
-
-namespace Glasswall.Tenant.Management
+﻿namespace Platform.Tenant.Management
 {
-    public interface ITenantAttributesParser : IHttpParser<TenantModel>
+	public interface ITenantAttributesParser : IHttpParser<TenantModel>
     {
     }
 }

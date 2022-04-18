@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using Glasswall.Kernel.Logging;
-using Glasswall.Kernel.Tenancy;
 
 [assembly: InternalsVisibleTo("Glasswall.Tenant.Management.Tests.L1")]
 [assembly: InternalsVisibleTo("Glasswall.FileTrust.Tenant.Management.Tests.L0")]
-namespace Glasswall.Tenant.Management
+namespace Platform.Tenant.Management
 {
-    public class TenantManager : ITenantManager
+	public class TenantManager : ITenantManager
     {
         private readonly ITenantIdentityProvider _tenantIdentityProvider;
         private readonly IGWLogger<TenantManager> _logger;

@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Collections.Specialized;
-using Glasswall.Kernel.Data.Connection;
-using Glasswall.Kernel.Data.Tenancy;
-using Glasswall.Kernel.DependencyResolver;
-using Glasswall.Kernel.Tenancy;
-using Glasswall.Platform.Web.Api.Client.Extensions;
 
-namespace Glasswall.Tenant.Management.Extensions
+namespace Platform.Tenant.Management.Extensions
 {
-    public static class TenantManagmenExtensions
+	public static class TenantManagmenExtensions
     {
          public static IDependencyResolver AddTenancy(this IDependencyResolver dependencyResolver)
         {

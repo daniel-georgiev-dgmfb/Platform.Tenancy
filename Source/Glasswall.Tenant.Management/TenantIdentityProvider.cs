@@ -4,13 +4,10 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Glasswall.Kernel.Data.Connection;
-using Glasswall.Kernel.Logging;
-using Glasswall.Kernel.Tenancy;
 
-namespace Glasswall.Tenant.Management
+namespace Platform.Tenant.Management
 {
-    public class TenantIdentityProvider : ITenantIdentityProvider
+	public class TenantIdentityProvider : ITenantIdentityProvider
     {
         private readonly IEnumerable<ITenantResolver> _resolvers;
         private readonly IConnectionStringProvider<NameValueCollection> _connectionStringProvider;

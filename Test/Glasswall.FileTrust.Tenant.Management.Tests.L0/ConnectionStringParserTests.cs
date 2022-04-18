@@ -1,12 +1,11 @@
-﻿using System;
-using System.Threading.Tasks;
-using Glasswall.Kernel.Serialisation;
-using Moq;
+﻿using Moq;
 using NUnit.Framework;
+using System;
+using System.Threading.Tasks;
 
-namespace Glasswall.Tenant.Management.Tests.L0
+namespace Platform.Tenant.Management.Tests.L0
 {
-    [TestFixture]
+	[TestFixture]
     [Category("ConnectionStringParser")]
     internal class ConnectionStringParserTests
     {

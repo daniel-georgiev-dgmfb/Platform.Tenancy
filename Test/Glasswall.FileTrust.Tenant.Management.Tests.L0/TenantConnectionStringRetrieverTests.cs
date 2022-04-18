@@ -1,19 +1,13 @@
-﻿using System;
+﻿using Moq;
+using NUnit.Framework;
+using System;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Glasswall.Kernel.Tenancy;
-using Glasswall.Kernel.Web;
-using Glasswall.Kernel.Web.Authorisation;
-using Glasswall.Platform.Web.Api.Client;
-using Glasswall.Tenant.Management.Models;
-using Glasswall.Tenant.Management.Tests.L0.MockData;
-using Moq;
-using NUnit.Framework;
 
-namespace Glasswall.Tenant.Management.Tests.L0
+namespace Platform.Tenant.Management.Tests.L0
 {
-    [TestFixture]
+	[TestFixture]
     [Category("TenantConnectionStringRetriever")]
     internal class TenantConnectionStringRetrieverTests
     {

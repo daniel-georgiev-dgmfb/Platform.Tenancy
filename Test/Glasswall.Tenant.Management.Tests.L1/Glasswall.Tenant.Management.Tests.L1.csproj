@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>Platform.Tenant.Management.Tests.L1</AssemblyName>
+
+    <RootNamespace>Platform.Tenant.Management.Tests.L1</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

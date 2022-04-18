@@ -1,17 +1,11 @@
-﻿using System;
-using System.Threading.Tasks;
-using Glasswall.FileTrust.Tenant.Management.Tests.L0.MockData;
-using Glasswall.Kernel.Data.Tenancy;
-using Glasswall.Kernel.Logging;
-using Glasswall.Kernel.Tenancy;
-using Glasswall.Kernel.Web.Authorisation;
-using Glasswall.Tenant.Management;
-using Moq;
+﻿using Moq;
 using NUnit.Framework;
+using System;
+using System.Threading.Tasks;
 
-namespace Glasswall.FileTrust.Tenant.Management.Tests.L0
+namespace Platform.FileTrust.Tenant.Management.Tests.L0
 {
-    [TestFixture]
+	[TestFixture]
     public class TenantManagerTests
     {
         [Test]

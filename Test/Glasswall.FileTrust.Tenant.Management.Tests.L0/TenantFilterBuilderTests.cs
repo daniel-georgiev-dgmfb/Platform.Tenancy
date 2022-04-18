@@ -1,13 +1,10 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 using System.Linq;
-using Glasswall.FileTrust.Tenant.Management.Tests.L0.MockData;
-using Glasswall.Kernel.Data.Tenancy;
-using Glasswall.Tenant.Management;
-using NUnit.Framework;
 
-namespace Glasswall.FileTrust.Tenant.Management.Tests.L0
+namespace Platform.FileTrust.Tenant.Management.Tests.L0
 {
-    [TestFixture]
+	[TestFixture]
     [Category("TenantFilterBuilder")]
     public class TenantFilterBuilderTests
     {

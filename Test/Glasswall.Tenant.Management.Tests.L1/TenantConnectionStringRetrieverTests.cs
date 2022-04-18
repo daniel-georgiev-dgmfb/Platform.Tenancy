@@ -1,25 +1,14 @@
+using Moq;
+using NUnit.Framework;
 using System;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 using System.Threading.Tasks;
-using Glasswall.Common.Serialisation.JSON;
-using Glasswall.Common.Serialisation.JSON.SettingsProviders;
-using Glasswall.Kernel.Security.Validation;
-using Glasswall.Kernel.Tenancy;
-using Glasswall.Kernel.Web;
-using Glasswall.Platform.Web.Api.Client;
-using Glasswall.Platform.Web.HttpClient;
-using Glasswall.Platform.Web.Tokens;
-using Glasswall.Platform.Web.Tokens.Contexts;
-using Glasswall.Tenant.Management.Tests.L1.MockData;
-using MemoryCacheProvider;
-using Moq;
-using NUnit.Framework;
 
-namespace Glasswall.Tenant.Management.Tests.L1
+namespace Platform.Tenant.Management.Tests.L1
 {
-    [TestFixture]
+	[TestFixture]
     [Category("TenantConnectionStringRetriever")]
     [Ignore("Require tenant endpoint")]
     public class TenantConnectionStringRetrieverTests

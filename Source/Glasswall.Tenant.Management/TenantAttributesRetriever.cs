@@ -2,14 +2,10 @@
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Glasswall.Kernel.Logging;
-using Glasswall.Kernel.Web;
-using Glasswall.Platform.Web.Api.Client;
-using Glasswall.Tenant.Management.Models;
 
-namespace Glasswall.Tenant.Management
+namespace Platform.Tenant.Management
 {
-    internal class TenantAttributesRetriever : ITenantAttributesRetriever
+	internal class TenantAttributesRetriever : ITenantAttributesRetriever
     {
         private readonly IApiClient _apiClient;
         private readonly ITenantAttributesParser _connectionStringParser;

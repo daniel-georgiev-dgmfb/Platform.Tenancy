@@ -12,6 +12,7 @@
     <Description>Tenant manager, query builder and tenant resolution</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.3</Version>
+    <AssemblyName>Platform.Tenant.Management</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

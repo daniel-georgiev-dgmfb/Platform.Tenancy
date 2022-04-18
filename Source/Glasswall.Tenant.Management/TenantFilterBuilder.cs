@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Linq;
-using Glasswall.Common.Tenancy.Extensions;
-using Glasswall.Kernel.Data.Tenancy;
 
-namespace Glasswall.Tenant.Management
+namespace Platform.Tenant.Management
 {
-    public class TenantFilterBuilder : ITenantFilterBuilder
+	public class TenantFilterBuilder : ITenantFilterBuilder
     {
         public IQueryable<T> ApplyFilter<T>(IQueryable<T> query, Guid tenantId) where T : BaseTenantModel
         {

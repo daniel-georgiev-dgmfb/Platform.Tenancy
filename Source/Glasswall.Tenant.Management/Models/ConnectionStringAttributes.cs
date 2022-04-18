@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Glasswall.Tenant.Management.Models
+namespace Platform.Tenant.Management.Models
 {
-    public class ConnectionStringAttributes
+	public class ConnectionStringAttributes
     {
         public string Server { get; set; }
         public string Database { get; set; }

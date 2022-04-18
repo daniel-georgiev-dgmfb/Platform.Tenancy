@@ -1,16 +1,12 @@
-﻿using System;
+﻿using Moq;
+using NUnit.Framework;
+using System;
 using System.Collections.Specialized;
 using System.Threading.Tasks;
-using Glasswall.Kernel.Data.Connection;
-using Glasswall.Kernel.Tenancy;
-using Glasswall.Kernel.Web.Authorisation;
-using Glasswall.Tenant.Management.Tests.L0.MockData;
-using Moq;
-using NUnit.Framework;
 
-namespace Glasswall.Tenant.Management.Tests.L0
+namespace Platform.Tenant.Management.Tests.L0
 {
-    [TestFixture]
+	[TestFixture]
     [Category("TenantIdentityProvider")]
     internal class TenantIdentityProviderTests
     {
